@@ -8,7 +8,7 @@ import About from "./components/about.jsx";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <div className="App">
         <NavBar />
 
