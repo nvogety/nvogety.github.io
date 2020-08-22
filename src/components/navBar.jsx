@@ -7,7 +7,7 @@ class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav class="navbar my-2 mx-3">
+        <nav class="navbar my-1 mx-2">
           <a class="navbar-brand my-logo" href="#">
             neeharika vogety
           </a>
