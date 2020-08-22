@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import "./navBar.css";
 
 class NavBar extends Component {
   state = {};
@@ -7,7 +8,7 @@ class NavBar extends Component {
     return (
       <React.Fragment>
         <nav class="navbar my-2 mx-3">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand my-logo" href="#">
             neeharika vogety
           </a>
           <ul class="nav justify-content-end">
