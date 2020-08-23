@@ -9,3 +9,31 @@
 .icons:hover {
   text-decoration: none;
 }
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-third {
+  width: 33%;
+  align-items: center;
+}
+
+.flex-third img {
+  max-width: 100%;
+}
+
+.flex-two-thirds {
+  width: 66%;
+}
+
+@media screen and (max-width: 990px) {
+  .box {
+    flex-wrap: wrap;
+  }
+  .flex-third {
+    width: 275px;
+  }
+}

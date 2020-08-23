@@ -7,13 +7,26 @@ class About extends Component {
   state = {};
   render() {
     return (
-      <div style={{ marginTop: "10%", marginBottom: "10%" }}>
-        <img
-          src={require("../media/myface.jpg")}
-          alt="Neeharika's Face"
-          style={{ borderRadius: "50%" }}
-        />
-        <div style={{ textAlign: "left", marginLeft: "5%", marginRight: "5%" }}>
+      <div
+        class="box"
+        style={{
+          marginTop: "5%",
+          marginBottom: "5%",
+          marginLeft: "5%",
+          marginRight: "5%",
+        }}
+      >
+        <div class="flex-third" style={{ margin: "5% 0% 10% 0%" }}>
+          <img
+            src={require("../media/myface.jpg")}
+            alt="Neeharika's Face"
+            style={{ borderRadius: "50%" }}
+          />
+        </div>
+        <div
+          class="flex-two-thirds"
+          style={{ textAlign: "left", marginLeft: "5%", marginRight: "5%" }}
+        >
           <p>
             Hi, I’m Neeharika Vogety, and I’m a student and programmer. I’m
             comfortable working in any part of the software development process,
