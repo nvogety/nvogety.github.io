@@ -1,0 +1,11 @@
+.title {
+  font-size: 3rem !important;
+}
+
+.bio {
+  font-size: 1.75rem !important;
+}
+
+p a {
+  text-decoration: underline;
+}

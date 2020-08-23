@@ -1,0 +1,11 @@
+.icons {
+  padding: 10px 10px 20px 0px;
+  font-size: 1.75em;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.icons:hover {
+  text-decoration: none;
+}

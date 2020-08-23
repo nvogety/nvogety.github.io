@@ -3,3 +3,7 @@
   font-size: 3.25rem !important;
   font-family: "VT323", monospace;
 }
+
+.nav-item {
+  font-weight: 600;
+}
