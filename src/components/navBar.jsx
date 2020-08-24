@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import "./navBar.css";
 
 class NavBar extends Component {
@@ -38,15 +37,16 @@ class NavBar extends Component {
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="#">
-                  Project 1
-                </a>
-                <a class="dropdown-item" href="#">
-                  Project 2
-                </a>
-                <a class="dropdown-item" href="#">
-                  Project 3
-                </a>
+                {this.props.projects.map((project) => (
+                  <a
+                    key={project.id}
+                    class="dropdown-item"
+                    href={project.link}
+                    target="_blank"
+                  >
+                    {project.title}
+                  </a>
+                ))}
               </div>
             </li>
           </ul>

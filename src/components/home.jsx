@@ -22,6 +22,26 @@ class Home extends Component {
             <a href="/#/about">here</a>.
           </p>
         </div>
+
+        <div class="card-columns">
+          {this.props.projects.map((project) => (
+            <div key={project.id} class="card">
+              <img
+                class="card-img-top"
+                src={project.image}
+                alt={project.title}
+              />
+              <div class="card-body">
+                <h4>
+                  <a class="card-title" href={project.link} target="_blank">
+                    {project.title}
+                  </a>
+                </h4>
+                <p class="card-text">{project.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     );
   }
