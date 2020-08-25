@@ -8,7 +8,7 @@ class Home extends Component {
       <div class="container adjust-font">
         <div style={{ textAlign: "left", marginTop: "5%" }}>
           <h1 class="title">Hi, I'm Neeharika.</h1>
-          <p class="bio">
+          <p class="bio" style={{ marginBottom: "5%" }}>
             I'm a student at{" "}
             <a href="https://www.cmu.edu/" target="_blank">
               Carnegie Mellon

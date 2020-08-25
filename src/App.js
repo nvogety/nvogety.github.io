@@ -5,9 +5,11 @@ import { HashRouter, Route, Link } from "react-router-dom";
 import NavBar from "./components/navBar.jsx";
 import Home from "./components/home.jsx";
 import About from "./components/about.jsx";
+import DoorIntercom from "./components/doorIntercom.jsx";
 // Find a better way to do this
 import activeAlarmPic from "./media/activealarm.jpg";
 import triviaMachinePic from "./media/triviaMachine.jpg";
+import doorIntercomPic from "./media/doorIntercom.jpg";
 
 var projects = [
   {
@@ -27,6 +29,13 @@ var projects = [
       "A buttonless trivia device that uses spatial sensing to record answers, made in 60-223",
     image: triviaMachinePic,
   },
+  {
+    id: 3,
+    title: "Door Intercom w/ Alexa",
+    link: "/#/door-intercom",
+    description: "See who's at the door with your Alexa",
+    image: doorIntercomPic,
+  },
 ];
 function App() {
   return (
@@ -36,6 +45,7 @@ function App() {
 
         <Route exact path="/" render={() => <Home projects={projects} />} />
         <Route path="/about" component={About} />
+        <Route path="/door-intercom" component={DoorIntercom} />
       </div>
     </HashRouter>
   );

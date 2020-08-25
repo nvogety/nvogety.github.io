@@ -1,5 +1,6 @@
 .title {
-  font-size: 3rem !important;
+  font-size: 4rem !important;
+  font-family: "VT323", monospace;
 }
 
 .bio {
@@ -11,6 +12,17 @@ p a {
 }
 
 .card-img-top {
-  min-height: 150px;
+  min-height: 200px;
   object-fit: cover;
+}
+
+img.center {
+  display: block;
+  margin: 30px auto;
+}
+
+@media screen and (max-width: 990px) {
+  .resize-pic {
+    width: 100%;
+  }
 }
