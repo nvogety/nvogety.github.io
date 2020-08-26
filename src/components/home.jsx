@@ -19,7 +19,10 @@ class Home extends Component {
             </a>
             . I like making fun things with code! Below are some of the things
             I've worked on that I'm proud of. You can learn more about me{" "}
-            <a href="/#/about">here</a>.
+            <a href="/#/about">here</a>.{"    "}
+            <span style={{ fontSize: "0.75rem" }}>
+              *note: this website is a work-in-progress!
+            </span>
           </p>
         </div>
 

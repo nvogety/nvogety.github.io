@@ -34,7 +34,7 @@ class NavBar extends Component {
                 Projects
               </a>
               <div
-                class="dropdown-menu"
+                class="dropdown-menu dropdown-menu-right"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 {this.props.projects.map((project) => (
