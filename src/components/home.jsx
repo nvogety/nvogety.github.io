@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./pages.css";
+import "./overrideFont.css";
 
 class Home extends Component {
   state = {};
@@ -8,7 +9,7 @@ class Home extends Component {
       <div class="container adjust-font">
         <div style={{ textAlign: "left", marginTop: "5%" }}>
           <h1 class="title">Hi, I'm Neeharika.</h1>
-          <p class="bio" style={{ marginBottom: "5%" }}>
+          <p class="bio main-font" style={{ marginBottom: "5%" }}>
             I'm a student at{" "}
             <a href="https://www.cmu.edu/" target="_blank">
               Carnegie Mellon
@@ -34,10 +35,10 @@ class Home extends Component {
                 src={project.image}
                 alt={project.title}
               />
-              <div class="card-body">
+              <div class="card-body main-font">
                 <h4>
                   <a class="card-title" href={project.link} target="_blank">
-                    {project.title}
+                    <b>{project.title}</b>
                   </a>
                 </h4>
                 <p class="card-text">{project.description}</p>

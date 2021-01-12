@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./pages.css";
 import "./about.css";
+import "./overrideFont.css";
 import resume from "../media/NeeharikaVResume.pdf";
 
 class About extends Component {
@@ -24,7 +25,7 @@ class About extends Component {
           />
         </div>
         <div
-          class="flex-two-thirds"
+          class="flex-two-thirds main-font"
           style={{ textAlign: "left", marginLeft: "5%", marginRight: "5%" }}
         >
           <p>
@@ -36,12 +37,16 @@ class About extends Component {
             the past, I worked as a full-stack software engineering intern at{" "}
             <a href="https://www.platinasystems.com/" target="_blank">
               Platina Systems
-            </a>{" "}
-            and a client engineering intern at{" "}
+            </a>
+            ,{" "}
             <a href="https://nianticlabs.com/en/" target="_blank">
               Niantic
             </a>{" "}
-            on the Pokémon Go team (email me for my friend code!). Some of my
+            (Pokémon Go team), and soon to be{" "}
+            <a href="https://www.twitch.tv/" target="_blank">
+              Twitch
+            </a>
+            . Some of my
             interests include playing with hobby electronics, game dev, digital
             illustration, and basically anything fun and creative.
           </p>

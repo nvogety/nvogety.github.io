@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
 import { HashRouter, Route, Link } from "react-router-dom";
 import NavBar from "./components/navBar.jsx";
 import Footer from "./components/footer.jsx";

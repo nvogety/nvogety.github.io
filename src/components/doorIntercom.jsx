@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import "./pages.css";
+import "./overrideFont.css";
 
 class DoorIntercom extends Component {
   state = {};
   render() {
     return (
-      <div class="container adjust-font">
+      <div class="container main-font">
         <div style={{ textAlign: "left", marginTop: "5%" }}>
           <img
             src={require("../media/doorIntercom.jpg")}
@@ -72,7 +73,7 @@ class DoorIntercom extends Component {
             {" "}
             Github Repo with all the code{" "}
             <a href="https://github.com/nvogety/Alexa-Code" target="_blank">
-              here
+              here.
             </a>
           </p>
         </div>

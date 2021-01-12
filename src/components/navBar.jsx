@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./navBar.css";
+import "./overrideFont.css";
 
 class NavBar extends Component {
   state = {};
@@ -7,10 +8,10 @@ class NavBar extends Component {
     return (
       <React.Fragment>
         <nav class="navbar my-1 mx-5">
-          <a class="navbar-brand my-logo" href="#">
+          <a class="navbar-brand my-logo pixel-font" href="#">
             neeharika vogety
           </a>
-          <ul class="nav justify-content-end">
+          <ul class="nav justify-content-end main-font">
             <li class="nav-item">
               <a class="nav-link active" href="/">
                 Home

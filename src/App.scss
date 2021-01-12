@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+$theme-colors: (
+  "primary": #4e09ee,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";

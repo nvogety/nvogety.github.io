@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./footer.css";
+import "./overrideFont.css";
 
 class Footer extends Component {
   state = {};
@@ -7,7 +8,7 @@ class Footer extends Component {
     return (
       <footer class="footer">
         <div
-          class="container"
+          class="container main-font"
           style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <hr />
