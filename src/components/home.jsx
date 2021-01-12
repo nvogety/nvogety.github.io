@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div class="container adjust-font">
         <div style={{ textAlign: "left", marginTop: "5%" }}>
-          <h1 class="title">Hi, I'm Neeharika.</h1>
+          <h1 class="title pixel-font">Hi, I'm Neeharika.</h1>
           <p class="bio main-font" style={{ marginBottom: "5%" }}>
             I'm a student at{" "}
             <a href="https://www.cmu.edu/" target="_blank">
@@ -37,7 +37,7 @@ class Home extends Component {
               />
               <div class="card-body main-font">
                 <h4>
-                  <a class="card-title" href={project.link} target="_blank">
+                  <a class="card-title" href={project.link}>
                     <b>{project.title}</b>
                   </a>
                 </h4>

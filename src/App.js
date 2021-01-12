@@ -7,14 +7,24 @@ import Footer from "./components/footer.jsx";
 import Home from "./components/home.jsx";
 import About from "./components/about.jsx";
 import DoorIntercom from "./components/doorIntercom.jsx";
+import LEDMatrix from "./components/ledMatrix.jsx";
 // Find a better way to do this
 import activeAlarmPic from "./media/activealarm.jpg";
 import triviaMachinePic from "./media/triviaMachine.jpg";
 import doorIntercomPic from "./media/doorIntercom.jpg";
+import ledMatrixPic from "./media/led-matrix/main.jpg";
 
 var projects = [
   {
     id: 1,
+    title: "LED Matrix",
+    link: "/#/led-matrix",
+    description:
+      "A giant LED wall that can display any image, made for TEDxCMU",
+    image: ledMatrixPic,
+  },
+  {
+    id: 2,
     title: "Active Alarm",
     link: "https://courses.ideate.cmu.edu/60-223/f2019/work/active-alarm/",
     description:
@@ -22,7 +32,7 @@ var projects = [
     image: activeAlarmPic,
   },
   {
-    id: 2,
+    id: 3,
     title: "Trivia Machine",
     link:
       "https://courses.ideate.cmu.edu/60-223/f2019/work/trivia-machine-final-documentation/",
@@ -31,7 +41,7 @@ var projects = [
     image: triviaMachinePic,
   },
   {
-    id: 3,
+    id: 4,
     title: "Door Intercom w/ Alexa",
     link: "/#/door-intercom",
     description: "See who's at the door with your Alexa",
@@ -47,6 +57,7 @@ function App() {
         <Route exact path="/" render={() => <Home projects={projects} />} />
         <Route path="/about" component={About} />
         <Route path="/door-intercom" component={DoorIntercom} />
+        <Route path="/led-matrix" component={LEDMatrix} />
         <Footer />
       </div>
     </HashRouter>

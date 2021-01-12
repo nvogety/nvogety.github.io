@@ -10,7 +10,7 @@ class DoorIntercom extends Component {
         <div style={{ textAlign: "left", marginTop: "5%" }}>
           <img
             src={require("../media/doorIntercom.jpg")}
-            alt="Flow diagram for the door intercom system"
+            alt="Door intercom system"
             class="center resize-pic"
           />
           <h1 class="title pixel-font">Door Intercom w/ Amazon Alexa</h1>
@@ -30,7 +30,7 @@ class DoorIntercom extends Component {
             <br/>
             <br/>
 
-            <h4 class="section-header">Synopsis:</h4>
+            <h4 class="section-header">Idea:</h4>
 
             The idea behind this project was to simulate a door intercom system
             within a single call to Alexa. You can tell Alexa "Alexa, send this
@@ -85,10 +85,13 @@ class DoorIntercom extends Component {
 
             <h4 class="section-header">Code:</h4>
 
-            Github Repo with all the code{" "}
-            <a href="https://github.com/nvogety/Alexa-Code" target="_blank">
-              here.
-            </a>
+            
+            <p>
+              Github Repo with all the code{" "}
+              <a href="https://github.com/nvogety/Alexa-Code" target="_blank">
+              here
+              </a>.
+            </p>
           </div>
         </div>
       </div>
