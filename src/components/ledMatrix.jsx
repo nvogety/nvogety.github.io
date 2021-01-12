@@ -69,9 +69,10 @@ class LedMatrix extends Component {
               />
               <br/>
 
+              <p>
               We tested each half with <a href="https://github.com/adafruit/Adafruit_NeoPixel" target="_blank">Adafruit's NeoPixel</a> libraries by trying out
               some default patterns before importing our own images. We also placed a frosted acrylic sheet on top in order to diffuse the bright LED lights. 
-              <br/>
+              </p>
 
               <img
                 src={require("../media/led-matrix/connect.jpg")}
