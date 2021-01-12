@@ -1,6 +1,5 @@
 .title {
   font-size: 4rem !important;
-  font-family: "VT323", monospace;
 }
 
 .bio {
@@ -19,6 +18,15 @@ p a {
 img.center {
   display: block;
   margin: 30px auto;
+}
+
+.section-header {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.project-body {
+  margin: 0 50px;
 }
 
 @media screen and (max-width: 990px) {
