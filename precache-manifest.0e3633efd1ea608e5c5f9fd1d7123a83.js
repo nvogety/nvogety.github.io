@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4dd15cb8c36b72bb1cffc9b03e89f72",
+    "revision": "371d8a087d4c8e72e3fa2069447bca22",
     "url": "/index.html"
   },
   {
-    "revision": "3d67ee6a07a02a273241",
-    "url": "/static/css/main.61975313.chunk.css"
+    "revision": "d744323adf4b149c2f8e",
+    "url": "/static/css/main.d387a79a.chunk.css"
   },
   {
-    "revision": "e808803a8d837f47ffe6",
-    "url": "/static/js/2.ede3a8ef.chunk.js"
+    "revision": "ad4af663a5c74b256781",
+    "url": "/static/js/2.ddba00df.chunk.js"
   },
   {
     "revision": "d3031346469a8a2ef527f1ad705ea3b7",
-    "url": "/static/js/2.ede3a8ef.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ddba00df.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d67ee6a07a02a273241",
-    "url": "/static/js/main.9d315f73.chunk.js"
+    "revision": "d744323adf4b149c2f8e",
+    "url": "/static/js/main.0d07d2c2.chunk.js"
   },
   {
     "revision": "e772e3ee0db6f9829b44",
@@ -32,6 +32,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/activealarm.afe46705.jpg"
   },
   {
+    "revision": "d91d3f9838790b22d26e5370c0b90c01",
+    "url": "/static/media/connect.d91d3f98.jpg"
+  },
+  {
     "revision": "18be53171ce6d979e0c3756a9cb57e21",
     "url": "/static/media/doorIntercom.18be5317.jpg"
   },
@@ -44,8 +48,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.5d5d9eef.svg"
   },
   {
+    "revision": "f7b299fb87e2cb16285126c8eda909a5",
+    "url": "/static/media/main.f7b299fb.jpg"
+  },
+  {
     "revision": "65e8f54646228456e383cac2281c980e",
     "url": "/static/media/myface.65e8f546.jpg"
+  },
+  {
+    "revision": "c473252463c52b271777d01f16a3a0ac",
+    "url": "/static/media/rainbow.c4732524.jpg"
+  },
+  {
+    "revision": "1f57182f7ae07afb4435e4b338bc3c0a",
+    "url": "/static/media/strips.1f57182f.jpg"
+  },
+  {
+    "revision": "ecfb79452d5c14c52869d4b90a32faff",
+    "url": "/static/media/tedx.ecfb7945.jpg"
+  },
+  {
+    "revision": "48edd11dc1b3d6a248d223a96ab1cd14",
+    "url": "/static/media/test.48edd11d.jpg"
   },
   {
     "revision": "d6c6db127812a85b3481b68a174ad334",

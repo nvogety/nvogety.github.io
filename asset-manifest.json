@@ -1,29 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.61975313.chunk.css",
-    "main.js": "/static/js/main.9d315f73.chunk.js",
-    "main.js.map": "/static/js/main.9d315f73.chunk.js.map",
+    "main.css": "/static/css/main.d387a79a.chunk.css",
+    "main.js": "/static/js/main.0d07d2c2.chunk.js",
+    "main.js.map": "/static/js/main.0d07d2c2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fdaf22cd.js",
     "runtime-main.js.map": "/static/js/runtime-main.fdaf22cd.js.map",
-    "static/js/2.ede3a8ef.chunk.js": "/static/js/2.ede3a8ef.chunk.js",
-    "static/js/2.ede3a8ef.chunk.js.map": "/static/js/2.ede3a8ef.chunk.js.map",
+    "static/js/2.ddba00df.chunk.js": "/static/js/2.ddba00df.chunk.js",
+    "static/js/2.ddba00df.chunk.js.map": "/static/js/2.ddba00df.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ab92839d058ac24ccbe3ccef4f799671.js": "/precache-manifest.ab92839d058ac24ccbe3ccef4f799671.js",
+    "precache-manifest.0e3633efd1ea608e5c5f9fd1d7123a83.js": "/precache-manifest.0e3633efd1ea608e5c5f9fd1d7123a83.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.61975313.chunk.css.map": "/static/css/main.61975313.chunk.css.map",
-    "static/js/2.ede3a8ef.chunk.js.LICENSE.txt": "/static/js/2.ede3a8ef.chunk.js.LICENSE.txt",
+    "static/css/main.d387a79a.chunk.css.map": "/static/css/main.d387a79a.chunk.css.map",
+    "static/js/2.ddba00df.chunk.js.LICENSE.txt": "/static/js/2.ddba00df.chunk.js.LICENSE.txt",
     "static/media/NeeharikaVResume.pdf": "/static/media/NeeharikaVResume.b6782200.pdf",
     "static/media/activealarm.jpg": "/static/media/activealarm.afe46705.jpg",
+    "static/media/connect.jpg": "/static/media/connect.d91d3f98.jpg",
     "static/media/doorIntercom.jpg": "/static/media/doorIntercom.18be5317.jpg",
     "static/media/doorIntercomDiagram.png": "/static/media/doorIntercomDiagram.324801bc.png",
     "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/main.jpg": "/static/media/main.f7b299fb.jpg",
     "static/media/myface.jpg": "/static/media/myface.65e8f546.jpg",
+    "static/media/rainbow.jpg": "/static/media/rainbow.c4732524.jpg",
+    "static/media/strips.jpg": "/static/media/strips.1f57182f.jpg",
+    "static/media/tedx.jpg": "/static/media/tedx.ecfb7945.jpg",
+    "static/media/test.jpg": "/static/media/test.48edd11d.jpg",
     "static/media/triviaMachine.jpg": "/static/media/triviaMachine.d6c6db12.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fdaf22cd.js",
-    "static/js/2.ede3a8ef.chunk.js",
-    "static/css/main.61975313.chunk.css",
-    "static/js/main.9d315f73.chunk.js"
+    "static/js/2.ddba00df.chunk.js",
+    "static/css/main.d387a79a.chunk.css",
+    "static/js/main.0d07d2c2.chunk.js"
   ]
 }
